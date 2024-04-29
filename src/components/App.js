@@ -1,13 +1,17 @@
 import React from "react";
-import Article from './Article'
-import Header from './Header'
-
+import NavBar from "./NavBar";
+import Home from "./Home";
+import About from "./About";
+import Article from "./Article";
 function App() {
-  return <div className="App">
-    learn react!
-    <Header/>
-    <Article />
-  </div>;
+  return (
+    <div>
+      <NavBar />
+      <Home />
+      <About />
+      <Article />
+    </div>
+  );
 }
 
 export default App;
